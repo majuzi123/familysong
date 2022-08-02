@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_denglu.xml" value="0.17447916666666666" />
+        <entry key="..\:/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_lianxiwomen.xml" value="0.17864583333333334" />
+        <entry key="..\:/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_zhuce.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/drawable-v24/outline_new_radius_bg.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b0.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b01.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b02.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b1.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b11youdao.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b12bijiao.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b13pinyin.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b14nish.xml" value="0.25" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b15tgs.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b1start.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b2.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b21myg.xml" value="0.2417498081350729" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b22cyjl.xml" value="0.3" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_qjg.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_skl1.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_skl2.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_skl3.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_skl4.xml" value="0.1640625" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b3_skl5.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b41.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b42.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b43.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b44.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b45.xml" value="0.1640625" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b46.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b47.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b48.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_b5.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_bactivity.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_bstart.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_denglu.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_lianxiwomen.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_main.xml" value="0.3" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_pactivity.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_qianxuzhi2.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_shiyong.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_yin.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/layout/activity_zhuce.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22333333333333336" />
+        <entry key="..\:/Users/Mike/AndroidStudioProjects/FamilySong/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

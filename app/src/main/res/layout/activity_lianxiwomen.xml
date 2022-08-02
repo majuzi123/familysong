@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:scrollbars="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img"
+            android:layout_gravity="center_horizontal"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="让孩子与家长在儿歌游戏与欢乐中训练构音!"
+            android:textSize="25sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="前测与后测："
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://wiming0122.github.io/family-song-test/"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:autoLink="all"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="每次训练后登记："
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://www.wjx.cn/vj/eB1mnyq.aspx"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:autoLink="all"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="总体建议（在完成整个训练周期后填写)"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:text="https://www.wjx.cn/vj/Q0cmgpS.aspx"
+            android:autoLink="all"
+            android:textSize="20sp"
+            ></TextView>
+        <View android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="@android:color/background_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="如有疑问 联系我们"
+            android:textSize="25sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="制作人：\n吴轶茗 13699563826\n林玉茹 18096902803\n邹颖 18387523162\n丁语馨 13585689812\n马搏 18234985550"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="华东师范大学康复科学系"
+            android:textSize="25sp"
+            android:gravity="center"
+            ></TextView>
+    </LinearLayout>
+</ScrollView>

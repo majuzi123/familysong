@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShiyongActivity">
+
+   <Button
+       android:layout_width="300dp"
+       android:layout_height="100dp"
+       android:layout_marginTop="40dp"
+       android:layout_gravity="center_horizontal"
+       android:background="@drawable/outline_new_radius_bg"
+       android:text="使用前须知"
+       android:onClick="myclick6"
+       android:textSize="30sp"
+       >
+
+   </Button>
+   <Button
+   android:layout_width="300dp"
+   android:layout_height="100dp"
+   android:layout_marginTop="60dp"
+   android:layout_gravity="center_horizontal"
+   android:background="@drawable/outline_new_radius_bg"
+   android:text="声母分类儿歌游戏"
+       android:onClick="myclick4"
+   android:textSize="30sp"
+   >
+
+</Button>
+
+   <Button
+       android:layout_width="300dp"
+       android:layout_height="100dp"
+       android:layout_marginTop="60dp"
+       android:layout_gravity="center_horizontal"
+       android:background="@drawable/outline_new_radius_bg"
+       android:text="联系我们"
+       android:textSize="30sp"
+       android:onClick="myclick5"
+       >
+
+   </Button>
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+      android:src="@drawable/img"
+       android:layout_alignParentBottom="true"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="50dp"
+     >
+
+   </ImageView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="  诱导性游戏：小金鱼吐泡泡
+家长创设情境，假设自己和孩子是两条小金鱼，家长一边模仿小金鱼吐出泡泡的“啵”音，一边像小金鱼一样游向小朋友。当靠近小朋友时，家长告诉小朋友：“小金鱼要来亲宝宝了！”，紧接着就给小朋友一个发出“啵”声的亲吻。之后又邀请小朋友做以同样的方式游过来，并给家长一个“啵”声的亲吻。
+"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".B.B1.B1_1youdaoActivity"
+            >
+
+            <VideoView
+                android:id="@+id/videoplay1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon1"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

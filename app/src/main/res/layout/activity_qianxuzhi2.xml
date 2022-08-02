@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            tools:context=".B.B0.B0Activity">
+
+            <VideoView
+                android:id="@+id/videoplay"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text=" 写给家长的一封信:\n儿歌游戏本身就是一种家庭游戏，爸爸妈妈带着孩子唱歌，鼓励和陪伴孩子，会在幼小的心灵播下幸福的种子，会使孩子幼小的心灵开出快乐的花朵，并结成美德的果实。在游戏的过程中，父母掌控着儿歌的技巧，把握着儿歌的进程，调节着儿童的情绪，扮演者引导者的角色，发挥着不可替代的教育作用。\n"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text=" 总体操作流程:\n
+1.注册和登录环节\n
+2.⭐点击联系我们-进入前测网页，根据指示上传文件（命名为“用户名-手机号-前测”）\n
+3.结合对孩子的观察及康复师诊断结果在声母分类儿歌游戏中选择声母进行练习\n
+⭐每日练习完毕后，在“联系我们”填写“每次训练后登记”\n"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="亲子练习流程：\n
+1.家长播放要进行练习的项目的视频或音频，阅读文字，自己熟悉儿歌或游戏内容。\n
+2.在与孩子互动时，播放儿歌，让孩子熟悉儿歌内容及音乐。\n
+其中，1级、2级儿歌中，黑字为家长领读部分，红字为孩子发音部分\n
+同时，在训练过程中，点击背景音乐按钮，配合音乐，家长可与孩子反复进行互动练习\n
+练习期间家长可使用发音，纠正，奖励等简单方式辅助孩子\n
+3.请家长根据训练效果与孩子水平进行升级或降级\n"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="⭐互动技巧⭐
+1.选择在孩子状态好的时间段进行训练\n
+2.每日同一时间段进行训练，每次至少20分钟，让孩子养成习惯\n
+3.当孩子说出正确的回答或发音时，要及时给予肯定的手势与表情\n
+4.可使用孩子平时喜欢的物品或活动作为训练后的奖励，注意：若选定了奖励物品或活动，就要让孩子在其他时间中减少对该物品或活动的接触，避免激励作用失效\n
+5.当孩子说出不达标的回答或发音时，不能着急否定孩子的回答，需要耐心引导孩子发出目标音，避免孩子信心受挫\n
+6.在词语阶段，孩子回答的答案是否正确并不重要，主要听孩子目标音发音是否准确\n
+7.家长耐心投入地引导孩子练习、鼓励和陪伴孩子，有利于形成温馨的家庭氛围\n"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="最后，祝愿您与孩子度过一段愉快的儿歌游戏时光，一同成长！"
+            android:textSize="20sp"
+            ></TextView>
+    </LinearLayout>
+</ScrollView>

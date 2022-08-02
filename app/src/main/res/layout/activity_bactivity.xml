@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".B.BActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b"
+            android:textSize="90sp">
+        </TextView>
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="0级 单个音"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/outline_new_radius_bg"
+            android:onClick="myclickb0"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="第一阶段 单个字"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:background="@drawable/outline_new_radius_bg"
+            android:onClick="myclickb1"
+            android:layout_marginLeft="20dp"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="第二阶段 词语"
+            android:textSize="30sp"
+            android:background="@drawable/outline_new_radius_bg"
+            android:textAllCaps="false"
+            android:layout_marginLeft="20dp"
+            android:onClick="myclickb2"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="第三阶段 顺口溜"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:background="@drawable/outline_new_radius_bg"
+            android:onClick="myclickb3"
+            android:layout_marginLeft="20dp"
+            ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="第四阶段 小故事"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:background="@drawable/outline_new_radius_bg"
+            android:layout_marginLeft="20dp"
+            android:onClick="myclickb5"
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="第五阶段 绕口令（选练）"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:background="@drawable/outline_new_radius_bg"
+            android:layout_marginLeft="20dp"
+            android:onClick="myclickb4"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.familysong">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="儿歌游戏"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FamilySong">
+        <activity
+            android:name=".P.PActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_5tgsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B0.B0_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B0.B0_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".qianxuzhiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".lianxiwomenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B5.B5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B4.B4_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_qjgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_skl5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_skl4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_skl3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_skl2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3_skl1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B3.B3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B2.B2_2cyjlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B2.B2_1mygActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B2.B2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_4nishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_3pinyinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_2bijiaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_1youdaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B1.B1_startActivity"
+            android:exported="false" />
+        <activity
+            android:name=".B.B0.B0Activity"
+            android:exported="false" />
+        <activity
+            android:name=".B.BActivity"
+            android:exported="false" />
+        <activity
+            android:name=".yinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShiyongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ZhuceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DengluActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
