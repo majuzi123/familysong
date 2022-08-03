@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.familysong.B.BActivity;
+import com.example.familysong.F.FActivity;
 
 public class yinActivity extends AppCompatActivity {
 
@@ -19,6 +20,12 @@ public class yinActivity extends AppCompatActivity {
     public void myclickb(View view) {
         //显式意图的使用方法实现页面的跳转
         Intent intent=new Intent(yinActivity.this, BActivity.class);
+        //执行意图
+        startActivity(intent);
+    }
+
+    public void myclickf(View view) {
+        Intent intent=new Intent(yinActivity.this, FActivity.class);
         //执行意图
         startActivity(intent);
     }

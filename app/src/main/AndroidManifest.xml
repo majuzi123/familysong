@@ -10,6 +10,69 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FamilySong">
         <activity
+            android:name=".F.F5.F5_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F5.F5_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F5.F5_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F5.F5_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F3.F3_qjgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F3.F3_skl3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F3.F3_skl2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F3.F3_skl1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F3.F3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F2.F2_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F2.F2_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F2.F2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1_1youdaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F1.F1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F0.F0_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F0.F0_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F0.F0Activity"
+            android:exported="false" />
+        <activity
             android:name=".F.FActivity"
             android:exported="false" />
         <activity

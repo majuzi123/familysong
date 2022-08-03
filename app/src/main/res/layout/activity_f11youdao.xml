@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="  诱导性游戏：比比反应力\n
+家长指导孩子，大吸一口气，用牙齿抵住下嘴唇慢慢吐气，当听到家长拍手的信号时立刻闭嘴并迅速停止吐气，再次拍手则继续吐气。反应快并基本正确可给予孩子一定奖励。家长也可与孩子互换角色，进行反应力比赛，增强游戏趣味性。
+"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".F.F1.F1_1youdaoActivity"
+            >
+
+            <VideoView
+                android:id="@+id/videoplay1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon1"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

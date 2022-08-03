@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="  诱导性游戏：小金鱼吐泡泡
+            android:text="  诱导性游戏：小金鱼吐泡泡\n
 家长创设情境，假设自己和孩子是两条小金鱼，家长一边模仿小金鱼吐出泡泡的“啵”音，一边像小金鱼一样游向小朋友。当靠近小朋友时，家长告诉小朋友：“小金鱼要来亲宝宝了！”，紧接着就给小朋友一个发出“啵”声的亲吻。之后又邀请小朋友做以同样的方式游过来，并给家长一个“啵”声的亲吻。
 "
             android:textSize="20sp"

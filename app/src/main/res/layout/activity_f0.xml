@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".F.F0.F0Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/outline_new_radius_bg"
+            android:text="舌位动图"
+            android:onClick="myclickf0_1"
+            android:textSize="20sp"
+            >
+
+        </Button>
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/outline_new_radius_bg"
+            android:text="音位对比"
+            android:onClick="myclickf0_2"
+            android:textSize="20sp"
+            >
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

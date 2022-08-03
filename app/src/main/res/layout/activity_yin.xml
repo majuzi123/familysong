@@ -65,6 +65,7 @@
             android:textSize="30sp"
             android:textAllCaps="false"
             android:layout_marginLeft="20dp"
+            android:onClick="myclickf"
             ></Button>
     </LinearLayout>
     <LinearLayout
