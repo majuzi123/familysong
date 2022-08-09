@@ -272,6 +272,7 @@
             android:text="h"
             android:textSize="30sp"
             android:textAllCaps="false"
+            android:onClick="myclickh"
             ></Button>
     </LinearLayout>
 
