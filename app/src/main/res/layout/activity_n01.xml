@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="0-1舌位动图"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="  发音要点：发音时舌尖顶住上牙和上齿龈之间，舌根上的小舌头下垂，打开鼻腔通道，发声，使气流从鼻腔缓缓流出。"
+            android:textSize="30sp"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".H.H0.H0_1Activity">
+
+            <VideoView
+                android:id="@+id/videoplay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

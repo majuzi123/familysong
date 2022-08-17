@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="拍手歌"
+            android:textSize="40sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="示范"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/play"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="播放"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/pause"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="暂停"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="停止"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="背景音乐"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/play1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="播放"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/pause1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="暂停"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/stop1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="停止"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="家长和孩子一边做拍手游戏，一边念儿歌。"
+            android:textSize="20sp"
+            android:textColor="#2196F3"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍一，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍一，一只孔雀穿花衣；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍二，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍二，两只小兔竖起耳；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍三，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍三，三只山羊爬雪山；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍四，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍四，四只小猫在练字；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍五，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍五，五只蝴蝶在飞舞；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍六，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍六，六只小猴吃石榴;"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍七，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍七，七只小鸡叫叽叽;"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍八，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍八，八只小象吹喇叭;"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍九，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍九，九条鱼儿水里游；"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="你拍十，"
+                android:textSize="20dp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="我拍十，十个小孩过生日。"
+                android:textSize="20dp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

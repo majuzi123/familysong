@@ -10,6 +10,78 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FamilySong">
         <activity
+            android:name=".N.N5.N5_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N5.N5_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N5.N5_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_mbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_qjgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_skl4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_skl3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_skl2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3_skl1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N3.N3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N2.N2_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N2.N2_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N2.N2_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N2.N2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N1.N1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N0.N0_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N0.N0_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.N0.N0Activity"
+            android:exported="false" />
+        <activity
+            android:name=".N.NActivity"
+            android:exported="false" />
+        <activity
             android:name=".H.H5.H5_6Activity"
             android:exported="false" />
         <activity
