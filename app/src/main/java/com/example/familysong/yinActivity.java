@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.familysong.B.BActivity;
 import com.example.familysong.F.FActivity;
 import com.example.familysong.H.HActivity;
+import com.example.familysong.L.LActivity;
 import com.example.familysong.N.NActivity;
 
 public class yinActivity extends AppCompatActivity {
@@ -40,6 +41,12 @@ public class yinActivity extends AppCompatActivity {
 
     public void myclickn(View view) {
         Intent intent=new Intent(yinActivity.this, NActivity.class);
+        //执行意图
+        startActivity(intent);
+    }
+
+    public void myclickl(View view) {
+        Intent intent=new Intent(yinActivity.this, LActivity.class);
         //执行意图
         startActivity(intent);
     }

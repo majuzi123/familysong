@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="词语接龙游戏"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="示范"
+                android:textSize="20sp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/play"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="播放"></Button>
+
+                    <Button
+                        android:id="@+id/pause"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="暂停"></Button>
+
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="停止"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="背景音乐"
+                android:textSize="20sp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/play1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="播放"></Button>
+
+                    <Button
+                        android:id="@+id/pause1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="暂停"></Button>
+
+                    <Button
+                        android:id="@+id/stop1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/outline_new_radius_bg"
+                        android:text="停止"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="  注:孩子部分可以由孩子自由发挥，只要是四个字即可,第一个字的音要与家长的最后一个字的音相同。家长重点看孩子的第一个字的读音是否正确，而不是孩子说的是否是一个成语或四字词语。
+\n(家长读黑字，孩子读红字)"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="青出于蓝，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lan XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="微风拂掠，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lüe XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="人情往来，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lai XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="轻车熟路，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lu XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="油光晶亮，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="liang XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="深谋远虑，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lü XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="万物有灵，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="ling XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="天伦之乐，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="le XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="长篇大论，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lun XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="风和日丽，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="li XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="车水马龙，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="long XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="暴躁如雷，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lei XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="干净利落，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="luo XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="天涯比邻，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lin XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="轰轰烈烈，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lie XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="心灰意冷，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="leng XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="活泼开朗，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lang XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="临危不乱，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="luan XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="好运连连，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lian XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="宝刀不老，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lao XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="滴水不漏，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="lou XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="西扯东拉，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="la XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:text="对答如流，"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="liu XXX"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

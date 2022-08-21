@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="拟声歌"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="示范"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/play"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="播放"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/pause"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="暂停"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="停止"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="背景音乐"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="0"
+                    android:progress="0" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/play1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="播放"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/pause1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="暂停"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                    <Button
+                        android:id="@+id/stop1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:text="停止"
+                        android:background="@drawable/outline_new_radius_bg"
+                        ></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="闹钟响起：叮"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="零零"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="小雨降下：浠"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="沥沥"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="毛驴鸣叫：呜"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="哩哩"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="小猪打呼：呼"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="噜噜"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="热汤冒泡：咕"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="噜噜"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="陀螺打转：嘟"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="碌碌"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="风吹树叶：刷"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="啦啦"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="小溪流水：哗"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="啦啦"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="爆竹爆炸：劈里啪"
+                android:textSize="18sp"
+                android:gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="啦"
+                android:textSize="18sp"
+                android:textColor="#F44336"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

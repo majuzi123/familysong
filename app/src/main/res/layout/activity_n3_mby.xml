@@ -340,7 +340,7 @@
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="15dp"
-                    android:text="失败内心不气馁。）"
+                    android:text="（失败内心不气馁。）"
                     android:textColor="#F44336"
                     android:textSize="15sp">
 
@@ -468,7 +468,7 @@
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="15dp"
-                    android:text="嫩绿豆角很鲜嫩。）"
+                    android:text="（嫩绿豆角很鲜嫩。）"
                     android:textColor="#F44336"
                     android:textSize="15sp">
 

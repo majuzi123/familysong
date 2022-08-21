@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".L.L0.L0_2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="0-2音位对比"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="该部分中的字词需要家长朗读，儿童可以不跟读。"
+        android:textSize="30sp"
+        android:textColor="#2196F3"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="鹿 拉 炉 狼 链\n
+辣 漏 龙 篮 乱\n
+楼 乐 喇
+"
+        android:gravity="center"
+        android:textSize="30sp"
+        ></TextView>
+</LinearLayout>

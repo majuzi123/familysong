@@ -10,6 +10,87 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FamilySong">
         <activity
+            android:name=".L.L5.L5_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L5.L5_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L5.L5_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_mbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_qjgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3_skl1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L3.L3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L2.L2_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L2.L2_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L2.L2_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L2.L2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L1.L1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L0.L0_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L0.L0_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L0.L0Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.LActivity"
+            android:exported="false" />
+        <activity
             android:name=".N.N5.N5_3Activity"
             android:exported="false" />
         <activity

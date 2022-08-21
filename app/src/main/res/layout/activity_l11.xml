@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="  诱导性游戏：弹舌游戏\n
+家长和孩子首先持续发“e”音，再将舌头前后推送，发出“l”的持续弹舌动作，最后用弹舌的形式哼唱孩子喜欢的歌曲。当孩子在弹舌哼唱过程中能够较明显地发出“l”音时，即可结束该阶段。
+"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".H.H1.H1_1Activity"
+            >
+
+            <VideoView
+                android:id="@+id/videoplay1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon1"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
