@@ -28,4 +28,9 @@ public class N0Activity extends AppCompatActivity {
         Intent intent=new Intent(this, N0_2Activity.class);
         startActivity(intent);
     }
+
+    public void myclickf0_3(View view) {
+        Intent intent=new Intent(this, N0_3Activity.class);
+        startActivity(intent);
+    }
 }

@@ -9,7 +9,7 @@
     tools:context=".H.H0.H0Activity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
         android:gravity="center"
         android:orientation="vertical">
         <Button
@@ -37,6 +37,16 @@
             android:textSize="20sp"
             >
         </Button>
-
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/outline_new_radius_bg"
+            android:text="呼读音"
+            android:onClick="myclickf0_3"
+            android:textSize="20sp"
+            >
+        </Button>
     </LinearLayout>
 </LinearLayout>

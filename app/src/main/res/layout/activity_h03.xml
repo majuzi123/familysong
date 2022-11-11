@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="呼读音"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="韵母：\n
+哈(hā) 喊(hǎn) 好(hǎo) 黑(hēi)
+嗨(hāi) 猴(hóu) 航(hánɡ) 红(hónɡ)
+喝(hē) 痕(hén) 哼(hēnɡ)
+护(hù) 花(huā) 坏(huài) 唤(huàn)
+活(huó) 回(huí) 魂(hún) 煌(huánɡ)\n
+
+声母：\n
+h g\n
+哈(hā) 嘎(gǎ)
+好(hǎo) 高(gāo)
+寒(hán) 干(gàn)
+航(háng) 刚(gāng)\n
+h k\n
+哈(hā) 卡(kǎ)
+还(hái) 开(kāi)
+寒(hán) 看(kàn)
+航(háng) 康(kāng)\n
+g d h\n
+哥(gē) 德(dé) 和(hé)
+该(gāi) 呆(dāi) 孩(hái)
+感(gǎn) 胆(dǎn) 喊(hǎn)
+港(gǎng) 挡(dǎng) 杭(háng)
+
+"
+            android:textSize="20sp"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".F.F0.F0_1Activity">
+
+            <VideoView
+                android:id="@+id/videoplay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

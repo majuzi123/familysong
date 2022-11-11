@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FamilySong">
         <activity
+            android:name=".N.N0.N0_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".L.L0.L0_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".H.H0.H0_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".F.F0.F0_3Activity"
+            android:exported="false" />
+        <activity
             android:name=".L.L5.L5_3Activity"
             android:exported="false" />
         <activity

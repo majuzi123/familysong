@@ -36,4 +36,6 @@ public class B0Activity extends AppCompatActivity  {
         Intent intent=new Intent(B0Activity.this,B0_2Activity.class);
         startActivity(intent);
     }
+
+
 }

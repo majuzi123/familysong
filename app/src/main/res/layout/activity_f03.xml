@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="呼读音"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text=" 韵母：
+罚(fá)、方(fāng) 、范(fàn)
+佛(fó)、否(fǒu)
+分(fēn)、封(fēng)、飞(fēi)
+服(fú)\n
+声母：\n
+fb
+博(bó)、佛(fó)
+笨(bèn)、奋(fèn)
+帮、方\n
+fh
+饭(fàn)、汉(hàn)
+飞(fēi)、黑(hēi)
+房(fánɡ)、航(hánɡ)\n
+
+fm
+否(fǒu)、某(mǒu)
+肺(fèi)、妹(mèi)
+凡(fán)、蛮(mán)
+
+"
+            android:textSize="20sp"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".F.F0.F0_1Activity">
+
+            <VideoView
+                android:id="@+id/videoplay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

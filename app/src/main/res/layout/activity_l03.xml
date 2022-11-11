@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="呼读音"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            ></TextView>
+        <TextView
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="韵母：\n
+拉(lā) 来(lái) 老(lǎo)
+乐(lè) 雷(léi) 蓝(lán)
+狼(lánɡ) 冷(lěnɡ) 隆(lónɡ)
+里(lǐ) 俩(liǎ) 冽(liè) 聊(liáo)
+脸(liǎn) 淋(lín) 灵(línɡ) 亮(liànɡ)
+绿(lǜ) 掠(luè)
+鹿(lù) 沦(lún) 乱(luàn) 落(luò) \n
+
+声母：\n
+n d l\n
+拿(ná) 大(dà) 啦(lɑ)
+闹(nào) 到(dào) 老(lǎo)
+难(nán) 但(dàn) 烂(làn)
+囊(nánɡ) 当(dānɡ) 狼(láng)\n
+l d\n
+啦(lā) 大(dà)
+老(lǎo) 岛(dǎo)
+蓝(lán) 蛋(dàn)
+浪(làng) 荡(dàng)
+
+
+"
+            android:textSize="20sp"
+            ></TextView>
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:context=".F.F0.F0_1Activity">
+
+            <VideoView
+                android:id="@+id/videoplay"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></VideoView>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/icon"
+                android:src="@android:drawable/ic_media_play"
+                android:layout_alignBottom="@id/videoplay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp"
+                ></ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

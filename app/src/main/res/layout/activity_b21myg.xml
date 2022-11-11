@@ -135,6 +135,14 @@
             android:layout_gravity="center"
             android:gravity="center">
         </TextView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="(家长建议:此部分不要求家长按原文念出，可进行一定的改编，孩子正确猜出或读出谜底词语的音节即可。)"
+            android:layout_gravity="center"
+            android:textColor="#F44336"
+            android:gravity="center">
+        </TextView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

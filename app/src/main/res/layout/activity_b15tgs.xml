@@ -137,6 +137,15 @@
             android:layout_gravity="center"
             android:gravity="center">
         </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="(家长建议:此部分家长需要要求儿童在听故事的过程中，当听到对应声母目标的字时，就在空白纸上画对勾或小花。)"
+            android:textSize="20sp"
+            android:textColor="#FF5722"
+            android:layout_gravity="center"
+            android:gravity="center">
+        </TextView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
